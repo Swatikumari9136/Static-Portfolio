@@ -1,0 +1,294 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          color: white;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+          min-height: 100vw;
+          overflow-x: hidden;
+          scroll-behavior: smooth;
+          background-image: linear-gradient(to right,rgb(88, 85, 85),rgb(53, 52, 52));
+
+}
+.container{
+          min-height: 100vw;
+          width: 100%;      
+          /* border: 3px solid red;    */
+}
+.container .top{
+          position: absolute;
+          width: 100vw;
+          height: 28rem;
+          display: flex;
+          justify-content: space-between;
+}
+.top .lside{
+          position: relative;
+          height: 100%;
+          width: 64vw;
+          color: wheat;
+          background-color: rgb(58, 56, 56);
+          /* border: 3px solid red; */
+}
+@media (max-width:500px) {
+          .top{
+                    max-height: 50%;
+                    width: 100%;
+                    display: none;
+          }
+}
+.lside .lside1{
+          margin: 12vw 10vw 1.5vw 20vw;
+          font-size: 17px;
+          height: 200px;
+          width: 250px;
+}
+.lside1 h1{
+          color: rgba(246, 174, 41, 0.859);
+          margin-bottom: 0.43vw;
+          
+}
+.lside1 button{
+          height: 30px;
+          width: 80px;
+          color: orange;
+          cursor: pointer;
+          border: 1px solid orange;
+          background-color: transparent;
+}
+.lside1 button:hover{
+          color: black;
+          background-color: rgba(246, 174, 41, 0.761);
+}
+.top .rside{
+          height: 100%;
+          width: 36%;
+          color: wheat;
+          background-color: rgba(246, 174, 41, 0.761);
+}
+#img{
+          position: absolute;
+          left: 38%;
+          top: 9%;
+          /* border: 3px solid rgb(160, 52, 52); */
+}
+.img{
+          position: absolute;
+          color: black;
+          height: 30px;
+          width: 30px;
+          top: 15px;
+          right: 15px;
+}
+
+.box{
+          position: absolute;
+          height: 240px;
+          width: 200px;
+          top: 78%;
+          left: 20%;
+          border: 6px solid orange;
+          background-color: transparent;
+
+}
+.boximg{
+          position: absolute;
+          height: 240px;
+          width: 200px;
+          top: 75%;
+          left: 23%;
+          box-shadow: 2px 2px -2px -2px black;
+          border: 6px solid rgb(46, 45, 46);
+          background-color: transparent;
+}
+/* .boximg #img{
+          position: relative;
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          overflow: hidden;
+          object-position: center;
+          border: 2px solid red;
+} */
+.right{
+          position: absolute;
+          left: 45%;
+          top: 75%;
+          height: 250px;
+          width: 510px;
+          /* border: 2px solid red; */
+}
+#h2{
+          color: black;
+}
+.right #line{
+          height: 3px;
+          width: 50px;
+          background-color: orange;
+          /* border: 2px solid red; */
+}
+.right p{
+          color: gray;
+}
+.right #btn1{
+          /* position: absolute; */
+          /* top: 62%; */
+          height: 30px;
+          width: 80px;
+          /* color: white; */
+          text-decoration: none;
+          border-radius: 3px;
+          background-color: orange;
+          border: none;
+}
+.right #btn1:hover{
+          background-color: rgb(13, 13, 13);
+}
+.right #btn1 a{
+          text-decoration: none;
+          background-color: transparent;
+}
+.right #btn2{
+          height: 30px;
+          width: 110px;
+          text-decoration: none;
+          border-radius: 3px;
+          text-decoration: none;
+          background-color: transparent;
+          border: 2px solid orange;
+}
+.right #btn2 a{
+          text-decoration: none;
+          background-color: transparent;
+}
+.right #btn2:hover{
+
+          text-decoration: none;
+          background-color: orange;
+}
+.bottom{
+          background-color: rgb(23, 22, 22);
+}
+.up{
+          position: absolute;
+          top: 130%;
+          left: 20%;
+          height: 180px;
+          width: 400px;
+}
+.up h2{
+          color: white;
+}
+.up #line1{
+          height: 3px;
+          width: 50px;
+          background-color: orange;
+}
+.down{
+          position: absolute;
+          top: 150%;
+          left: 19%;
+          height: 71%;
+          width: 60%;
+}
+table{
+          border-spacing: 10px;
+}
+tr,td{
+          height: 220px;
+          width: 370px;
+          border-radius: 5px;
+          font-weight: 600;
+          padding: 35px;
+          align-items: center;
+          opacity: 0.9;
+          border: 1px solid rgb(69, 67, 67);
+}
+td{
+          color: rgb(248, 248, 187);
+}
+#td1{
+          background-size: cover;
+          object-fit: cover;
+          opacity: 0.7;
+          object-position: center;
+          background-image: url(https://www.eazygurus.com/wp-content/uploads/2020/06/UI.png);
+          background-color: rgb(19, 138, 186);
+}
+#td2{
+          background-size: cover;
+          object-fit: cover;
+          opacity: 0.7;
+          /* color: yellow; */
+          object-position: center;
+          background-color: yellow;
+          background-image: url("https://static.vecteezy.com/system/resources/previews/000/268/926/original/website-development-concept-vector-illustration.jpg");
+          
+}
+#td3{
+          background-color: rgb(173, 23, 48);
+          opacity: 0.7;
+          background-size: cover;
+          object-fit: cover;
+          object-position: center;
+          background-image: url(https://th.bing.com/th/id/R.f65be0a19046394a386913361729137c?rik=ZG1o7KIep7Ko0Q&riu=http%3a%2f%2fwww.creativefaze.com%2fsites%2fdefault%2ffiles%2fandroid-app-developer-Specialist111.jpg&ehk=iGqOyekTKzwNpaYULKyHkNSGAHHNVIjNPgr5E0nylSk%3d&risl=&pid=ImgRaw&r=0);
+}
+#td4{
+          background-size: cover;
+          object-fit: cover;
+          opacity: 0.7;
+          object-position: center;
+          background-image: url("https://i0.wp.com/smashfreakz.com/wp-content/uploads/2014/04/apple-imac-mockup-psd-08.jpg?resize=600%2C343");
+          background-color: green;
+}
+/* @media screen and (max-width:720px) {
+
+          .lside{
+                    display: block;
+                    height: 250px;
+                    width: 100vh;
+          }
+          .lside .lside1{
+                    position: absolute;
+                    top: 6%; left: 15%;
+                    display: inline-block;
+                    transition-duration: 0.9s;
+                    width: 100%;
+                    margin: 10px;
+          }
+          .rside{
+                    position: absolute;
+                    top: 40%;
+                    left: 0%;
+                    display: block;
+                    height: 250px;
+                    width: 100vh;
+          }
+          #img{
+                    position: absolute;
+                    display: block;
+                    top: 5%; left: 2%;
+                    width: 100%;
+                    border: 2px solid red;
+
+          }
+          .right{
+                    position: absolute;
+                    left: 5%;
+                    top: 55%;
+                    height: auto;
+                    width: 60%;
+
+          }
+
+          
+} */
+
+
+
+
+
+
+
